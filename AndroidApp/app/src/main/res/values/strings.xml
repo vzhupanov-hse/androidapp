@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">AndroidApp</string>
+    <string name="SignInButtonText">Вход</string>
+    <string name="RegistrationPromptText">Еще нет учетной записи?</string>
+    <string name="RegistrationButtonText">Регистрация</string>
+    <string name="EmailExaple">example@hse.ru</string>
+    <string name="LoginText">Авторизация</string>
+    <string name="InputEmailPrompt">Введите email</string>
+    <string name="RegistrationEmailPrompt">Введите ваш email</string>
+    <string name="PasswordPromptText">Введите пароль</string>
+    <string name="RegistrationPassword">Придумайте пароль</string>
+    <string name="RepeatPassword">Повторите пароль</string>
+    <string name="NamePromptText">Введите ваше имя</string>
+    <string name="SurnamePromptText">Введите вашу фамилию</string>
+    <string name="RegistrationButton">Зарегистрироваться</string>
+    <string name="title_activity_main_screen">MainActivity</string>
+    <string name="InterestingsCatText">Что вам интересно?</string>
+    <string name="AndroidCheckBoxText">Android</string>
+    <string name="CssCheckBoxText">CSS</string>
+    <string name="CppCheckBoxText">C++</string>
+    <string name="CshCheckBoxText">C#</string>
+    <string name="HtmlCheckBoxText">HTML</string>
+    <string name="KotlinCheckBoxText">Kotlin</string>
+    <string name="NextDisplayText">Продолжить</string>
+    <string name="PythonCheckBoxText">Python</string>
+    <string name="JavaCheckBoxText">Java</string>
+    <string name="JSCheckBoxText">JavaScript</string>
+    <string name="WebCheckBoxText">Web</string>
+    <string name="AboutUserText">Расскажи о себе</string>
+    <string name="AboutUserPrompt">Опиши свои скилы и опыт работы</string>
+    <!-- User Activity-->
+    <string name="TextViewEmail">Email: %1s</string>
+    <string name="TextViewName">Имя: %1s</string>
+    <string name="TextViewSurname">Фамилия: %1s</string>
+    <string name="TextViewAbout">Обо мне: %1s</string>
+    <string name="TextViewInteres">Мои интереси:</string>
+    <string name="TextViewAndroid">Имя: %1s</string>
+    <string name="TextViewCSS">Имя: %1s</string>
+    <string name="TextViewCplus">Имя: %1s</string>
+    <string name="TextViewCsharp">Имя: %1s</string>
+    <string name="TextViewHtml">Имя: %1s</string>
+    <string name="TextViewWeb">Имя: %1s</string>
+    <string name="TextViewPython">Имя: %1s</string>
+    <string name="TextViewJavaScript">Имя: %1s</string>
+    <string name="TextViewJava">Имя: %1s</string>
+    <string name="TextViewKotlin">Имя: %1s</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>
