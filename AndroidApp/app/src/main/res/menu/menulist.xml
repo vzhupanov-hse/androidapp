@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/all"
+        android:icon="@drawable/ic_baseline_stars_24"
+        android:title="Все проекты"/>
+
+    <item
+        android:id="@+id/my_fav"
+        android:icon="@drawable/ic_baseline_stars_24"
+        android:title="По моим интересам"/>
+</menu>

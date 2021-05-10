@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/InteresText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/InterestingsCatText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/buttonsbackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/checkJS"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:buttonTint="@color/buttonsbackground"
+            android:text="@string/JSCheckBoxText"
+            android:textColor="@color/buttonsbackground"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/InteresText" />
+
+        <CheckBox
+            android:id="@+id/checkJava"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:buttonTint="@color/buttonsbackground"
+            android:text="@string/JavaCheckBoxText"
+            android:textColor="@color/buttonsbackground"
+            app:layout_constraintEnd_toStartOf="@+id/checkPython"
+            app:layout_constraintStart_toEndOf="@+id/checkJS"
+            app:layout_constraintTop_toBottomOf="@+id/InteresText" />
+
+        <CheckBox
+            android:id="@+id/checkPython"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:buttonTint="@color/buttonsbackground"
+            android:text="@string/PythonCheckBoxText"
+            android:textColor="@color/buttonsbackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/InteresText" />
+
+        <CheckBox
+            android:id="@+id/checkKotlin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:buttonTint="@color/buttonsbackground"
+            android:text="@string/KotlinCheckBoxText"
+            android:textColor="@color/buttonsbackground"
+            app:layout_constraintEnd_toStartOf="@+id/checkCsh"
+            app:layout_constraintStart_toEndOf="@+id/checkHtml"
+            app:layout_constraintTop_toBottomOf="@+id/checkJava" />
+
+        <CheckBox
+            android:id="@+id/checkHtml"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:buttonTint="@color/buttonsbackground"
+            android:text="@string/HtmlCheckBoxText"
+            android:textColor="@color/buttonsbackground"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkJS" />
+
+        <CheckBox
+            android:id="@+id/checkCsh"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:buttonTint="@color/buttonsbackground"
+            android:text="@string/CshCheckBoxText"
+            android:textColor="@color/buttonsbackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkPython" />
+
+        <CheckBox
+            android:id="@+id/checkCpp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:buttonTint="@color/buttonsbackground"
+            android:text="@string/CppCheckBoxText"
+            android:textColor="@color/buttonsbackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkCsh" />
+
+        <CheckBox
+            android:id="@+id/checkCSS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:buttonTint="@color/buttonsbackground"
+            android:text="@string/CssCheckBoxText"
+            android:textColor="@color/buttonsbackground"
+            app:layout_constraintStart_toEndOf="@+id/checkWeb"
+            app:layout_constraintTop_toBottomOf="@+id/checkKotlin" />
+
+        <CheckBox
+            android:id="@+id/checkAndroid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:buttonTint="@color/buttonsbackground"
+            android:text="@string/AndroidCheckBoxText"
+            android:textColor="@color/buttonsbackground"
+            app:layout_constraintEnd_toStartOf="@+id/checkCpp"
+            app:layout_constraintTop_toBottomOf="@+id/checkKotlin" />
+
+        <CheckBox
+            android:id="@+id/checkWeb"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:buttonTint="@color/buttonsbackground"
+            android:text="@string/WebCheckBoxText"
+            android:textColor="@color/buttonsbackground"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkHtml" />
+
+        <TextView
+            android:id="@+id/aboutUserText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="@string/AboutUserText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/buttonsbackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkKotlin" />
+
+        <EditText
+            android:id="@+id/aboutUser"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="60dp"
+            android:autofillHints="@string/AboutUserPrompt"
+            android:backgroundTint="@color/buttonsbackground"
+            android:ems="25"
+            android:hint="@string/AboutUserPrompt"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/buttonsbackground"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/aboutUserText" />
+
+        <Button
+            android:id="@+id/nextDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="134dp"
+            android:layout_marginEnd="135dp"
+            android:layout_marginBottom="44dp"
+            android:backgroundTint="@color/buttonsbackground"
+            android:text="@string/NextDisplayText"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
